@@ -20,6 +20,6 @@ public class CryptoStatsController {
             CryptoServiceImplementation service = new CryptoServiceImplementation();
             return cryptoService.getStats(symbol);
         }
-        return CryptoStats.error("400", "Please enter a valid query. A valid query looks like the following: localhost:8080/cryptostats?symbol=BTC-USD");
+        return CryptoStats.error("400", "Please enter a valid query. Refer to https://github.com/yuvrajvirdi/crypto-stats-api/blob/main/README.md on how to make valid queries.");
     }
 }
