@@ -1,7 +1,7 @@
 # crypto-stats-api
 REST API for retrieving statistics on cryptocurrencies
 
-* scrapes crypto stats off of [Yahoo Fianance](https://finance.yahoo.com).
+* allows for queries on all crypto symbols
 
 # Installation
 
